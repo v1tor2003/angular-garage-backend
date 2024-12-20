@@ -28,12 +28,12 @@ Bem-vindo à API de backend do Sistema de Gestão AngularGarage! Este projeto fo
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/RailsGarageAPI.git
+   git clone https://github.com/seuusuario/angular-garage-backend.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd RailsGarageAPI
+   cd angular-garage-backend
    ```
 
 3. Instale as dependências:
@@ -51,7 +51,7 @@ Bem-vindo à API de backend do Sistema de Gestão AngularGarage! Este projeto fo
    rails server
    ```
 
-6. Acesse a API em `http://localhost:3000/`.
+6. Acesse a API em `http://localhost:3000/api/v1`.
 
 ## Uso
 
@@ -72,7 +72,7 @@ Esta API foi projetada para ser consumida por um cliente frontend, como o Angula
 #### Exemplos de Uso
 
 1. **Listar todos os carros**
-   - Endpoint: `GET /cars`
+   - Endpoint: `GET /api/v1/cars`
    - Exemplo de resposta:
      ```json
      [
@@ -94,7 +94,7 @@ Esta API foi projetada para ser consumida por um cliente frontend, como o Angula
      ```
 
 2. **Criar um novo carro**
-   - Endpoint: `POST /cars`
+   - Endpoint: `POST /api/v1/cars`
    - Body:
      ```json
      {
@@ -116,7 +116,7 @@ Esta API foi projetada para ser consumida por um cliente frontend, como o Angula
      ```
 
 3. **Atualizar um carro**
-   - Endpoint: `PATCH /cars/:id`
+   - Endpoint: `PATCH /api/v1/cars/:id`
    - Body:
      ```json
      {
@@ -135,7 +135,7 @@ Esta API foi projetada para ser consumida por um cliente frontend, como o Angula
      ```
 
 4. **Excluir um carro**
-   - Endpoint: `DELETE /cars/:id`
+   - Endpoint: `DELETE /api/v1/cars/:id`
    - Exemplo de resposta:
      ```json
      {
